@@ -1,0 +1,10 @@
+# Configuration Git pour branche dev
+# Ce fichier définit dev comme branche par défaut pour ce projet
+
+[branch "dev"]
+	remote = origin
+	merge = refs/heads/dev
+
+[init]
+	defaultBranch = dev
+
